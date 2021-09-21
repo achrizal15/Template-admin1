@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <nav>
+                <img src="/icons/logo.png" alt="">
+                <li class="nav-item nav-active"><a href="">Dashboard</a></li>
+                <li class="nav-item"><a href="">Admin</a></li>
+                <li class="nav-item"><a href="">Member</a></li>
+            </nav>
+            <section class="content">
+                <article class="nav-header">
+                    <h3>
+                        Welcome to dashboard page 
+                    </h3>
+                    <h3>This day February-15-2021</h3>
+                </article>
+                <article class="carts">
+                    <article class="cart">
+                        <div class="img-cart">
+                            <img width="60px" src="icons/web-site.svg" alt="">
+                        </div>
+                        <div class="label-cart">
+                            <p>Desktop</p>
+                            <p>Rp.2000</p>
+                        </div>
+                    </article>
+                    <article class="cart red">
+                        <div class="img-cart">
+                            <img width="60px" src="icons/web-site.svg" alt="">
+                        </div>
+                        <div class="label-cart">
+                            <p>Human</p>
+                            <p>100</p>
+                        </div>
+                    </article>
+                    <article class="cart gray">
+                        <div class="img-cart">
+                            <img width="60px" src="icons/web-site.svg" alt="">
+                        </div>
+                        <div class="label-cart">
+                            <p>Income</p>
+                            <p>Rp.2000</p>
+                        </div>
+                    </article>
+                    <article class="cart yellow">
+                        <div class="img-cart">
+                            <img width="60px" src="icons/web-site.svg" alt="">
+                        </div>
+                        <div class="label-cart">
+                            <p>Outcome</p>
+                            <p>Rp.2000</p>
+                        </div>
+                    </article>
+                </article>
+                <article class="carts-results">
+                    <div class="curve-carts">
+                        <canvas id="myChart">
+                            <label id="pengeluaran">
+                                3102,4232,4860,3213,3255,1267,4100
+                            </label>
+                            <label id="pemasukan">
+                                4034,9043,4543,4012,1430,9731,6043
+                            </label>
+                        </canvas>
+                    </div>
+                    <div class="curve-carts">
+
+                    </div>
+                    <div class="curve-carts">3</div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
